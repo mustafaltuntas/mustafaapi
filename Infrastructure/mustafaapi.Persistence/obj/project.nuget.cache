@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "VdaOsU5o6By0D4msqYOqrJ5XtStnFToEhRRBDWTgEmBfXF6GxPA5MNukXReVlSidI5c4vNcMqJkZW1A9HQ1S4Q==",
+  "dgSpecHash": "kkhqnYD41buHDUwl2hmNl4faFPzC8WbX/2O4hOrOAi8KJWsjYUxQHzM39q1Dq1eZeSTGDUEtHcDE4KEOSVTUPQ==",
   "success": true,
   "projectFilePath": "/Users/mustafaltuntas/Projects/mustafaapi/Infrastructure/mustafaapi.Persistence/mustafaapi.Persistence.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/mustafaltuntas/.nuget/packages/bogus/35.6.0/bogus.35.6.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.entityframeworkcore/7.0.0/microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.0/microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.0/microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

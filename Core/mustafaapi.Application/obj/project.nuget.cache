@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "Ve5B1fUAdtfK5pY0qnZXaT9M1S+ge+gWRjTE9lSoOyU9jeDEPZcyQhR+o9Hf6uzTYwGTBKnDYXIy7HenY43nsg==",
+  "dgSpecHash": "PLAKpCugL9AQMnY7AGuOnYkd/E6wxVyxEUv16dhHD+VkanboVb1AY+ulcy0cggBX2K6pXyZjPPl8OTD1Z6Uyww==",
   "success": true,
   "projectFilePath": "/Users/mustafaltuntas/Projects/mustafaapi/Core/mustafaapi.application/mustafaapi.application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.entityframeworkcore/7.0.0/microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.0/microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.0/microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/Users/mustafaltuntas/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
