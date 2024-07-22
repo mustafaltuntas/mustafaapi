@@ -1,4 +1,6 @@
 ﻿using System;
+using mustafaapi.Domain.Common;
+
 namespace mustafaapi.Domain.Entities
 {
 	public class Brand : EntityBase

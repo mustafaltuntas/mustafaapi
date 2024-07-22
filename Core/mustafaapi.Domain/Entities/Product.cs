@@ -1,7 +1,9 @@
 ﻿using System;
+using mustafaapi.Domain.Common;
+
 namespace mustafaapi.Domain.Entities
 {
-	public class Product : EntityBase
+    public class Product : EntityBase
 	{
 		public required string Title { get; set; }
         public required string Description { get; set; }

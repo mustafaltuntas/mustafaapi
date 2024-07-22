@@ -1,4 +1,7 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+using mustafaapi.Domain.Common;
+
 namespace mustafaapi.Domain.Entities
 {
 
@@ -16,6 +19,7 @@ namespace mustafaapi.Domain.Entities
 		}
 		public required int ParentId { get; set; }
 
+		[MaxLength(200)]
 		public required string Name { get; set; }
 
 		public required int Priorty { get; set; }
