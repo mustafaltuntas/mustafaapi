@@ -23,7 +23,7 @@ namespace mustafaapi.Persistence.Configurations
                 Title = faker.Commerce.ProductName(),
                 Description = faker.Commerce.ProductDescription(),
                 BrandId = 1,
-                Discount = faker.Random.Decimal.(0, 10),
+                Discount = faker.Random.Decimal(0, 10),
                 Price = faker.Finance.Amount(10, 1000),
                 CreatedDate = DateTime.Now,
                 IsDeleted = false,
@@ -35,13 +35,13 @@ namespace mustafaapi.Persistence.Configurations
                 Title = faker.Commerce.ProductName(),
                 Description = faker.Commerce.ProductDescription(),
                 BrandId = 3,
-                Discount = faker.Random.Decimal.(0, 10),
+                Discount = faker.Random.Decimal(0, 10),
                 Price = faker.Finance.Amount(10, 1000),
                 CreatedDate = DateTime.Now,
                 IsDeleted = false,
             };
 
-            builder.HasData(product1, product2);
+            //builder.HasData(product1, product2);
         }
     }
 }

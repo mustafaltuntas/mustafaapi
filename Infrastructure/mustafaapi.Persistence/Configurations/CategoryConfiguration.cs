@@ -48,7 +48,7 @@ namespace mustafaapi.Persistence.Configurations
                 IsDeleted = false,
                 CreatedDate = DateTime.Now,
             };
-            builder.HasData(category1, category2, parent1, parent2);
+            //builder.HasData(category1, category2, parent1, parent2);
         }
     }
 }

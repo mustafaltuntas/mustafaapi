@@ -13,7 +13,7 @@ namespace mustafaapi.Persistence.Configurations
 
 			builder.Property(x => x.Name).HasMaxLength(256);
 
-            Faker faker = new("tr")
+            Faker faker = new("tr");
 
 			Brand brand1 = new()
 			{
@@ -39,7 +39,7 @@ namespace mustafaapi.Persistence.Configurations
                 IsDeleted = true
             };
 
-            builder.HasData(brand1, brand2, brand3 );
+            //builder.HasData(brand1, brand2, brand3 );
 
 		}
 	}

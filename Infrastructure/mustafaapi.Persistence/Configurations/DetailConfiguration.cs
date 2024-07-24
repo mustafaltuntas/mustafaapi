@@ -44,7 +44,7 @@ namespace mustafaapi.Persistence.Configurations
                 IsDeleted = false,
             };
 
-            builder.HasData(detail1, detail2, detail3);
+            //builder.HasData(detail1, detail2, detail3);
 
         }
     }
