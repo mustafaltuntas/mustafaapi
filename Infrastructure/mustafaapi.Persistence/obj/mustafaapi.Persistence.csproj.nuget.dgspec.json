@@ -4,14 +4,14 @@
     "/Users/mustafaltuntas/Projects/mustafaapi/Infrastructure/mustafaapi.Persistence/mustafaapi.Persistence.csproj": {}
   },
   "projects": {
-    "/Users/mustafaltuntas/Projects/mustafaapi/Core/mustafaapi.Domain/mustafaapi.Domain.csproj": {
+    "/Users/mustafaltuntas/Projects/mustafaapi/Core/mustafaapi.application/mustafaapi.application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mustafaltuntas/Projects/mustafaapi/Core/mustafaapi.Domain/mustafaapi.Domain.csproj",
-        "projectName": "mustafaapi.Domain",
-        "projectPath": "/Users/mustafaltuntas/Projects/mustafaapi/Core/mustafaapi.Domain/mustafaapi.Domain.csproj",
+        "projectUniqueName": "/Users/mustafaltuntas/Projects/mustafaapi/Core/mustafaapi.application/mustafaapi.application.csproj",
+        "projectName": "mustafaapi.application",
+        "projectPath": "/Users/mustafaltuntas/Projects/mustafaapi/Core/mustafaapi.application/mustafaapi.application.csproj",
         "packagesPath": "/Users/mustafaltuntas/.nuget/packages/",
-        "outputPath": "/Users/mustafaltuntas/Projects/mustafaapi/Core/mustafaapi.Domain/obj/",
+        "outputPath": "/Users/mustafaltuntas/Projects/mustafaapi/Core/mustafaapi.application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mustafaltuntas/.nuget/NuGet/NuGet.Config"
@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -82,7 +77,84 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mustafaltuntas/Projects/mustafaapi/Core/mustafaapi.Domain/mustafaapi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mustafaltuntas/Projects/mustafaapi/Core/mustafaapi.Domain/mustafaapi.Domain.csproj",
+        "projectName": "mustafaapi.Domain",
+        "projectPath": "/Users/mustafaltuntas/Projects/mustafaapi/Core/mustafaapi.Domain/mustafaapi.Domain.csproj",
+        "packagesPath": "/Users/mustafaltuntas/.nuget/packages/",
+        "outputPath": "/Users/mustafaltuntas/Projects/mustafaapi/Core/mustafaapi.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mustafaltuntas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -108,6 +180,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "/Users/mustafaltuntas/Projects/mustafaapi/Core/mustafaapi.application/mustafaapi.application.csproj": {
+                "projectPath": "/Users/mustafaltuntas/Projects/mustafaapi/Core/mustafaapi.application/mustafaapi.application.csproj"
+              },
               "/Users/mustafaltuntas/Projects/mustafaapi/Core/mustafaapi.Domain/mustafaapi.Domain.csproj": {
                 "projectPath": "/Users/mustafaltuntas/Projects/mustafaapi/Core/mustafaapi.Domain/mustafaapi.Domain.csproj"
               }
@@ -118,11 +193,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -176,7 +246,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "M9SnEttqWGU=",
+  "dgSpecHash": "FEkA0OqmRVtOf7ERXiq6PQ8u00westnQzPSfK+W8WbqNWTTE4+qQys/2jxXkEwTaH8brdvRFt74LBuN+2gmaiQ==",
   "success": true,
   "projectFilePath": "/Users/mustafaltuntas/Projects/mustafaapi/Core/mustafaapi.Domain/mustafaapi.Domain.csproj",
   "expectedPackageFiles": [
@@ -30,16 +30,5 @@
     "/Users/mustafaltuntas/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/Users/mustafaltuntas/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Npgsql' 7.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c",
-      "libraryId": "Npgsql",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }
