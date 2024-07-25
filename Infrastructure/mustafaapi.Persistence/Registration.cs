@@ -3,8 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using mustafaapi.application.Interfaces.Repositories;
+using mustafaapi.application.Interfaces.UnitOfWorks;
 using mustafaapi.Persistence.Context;
 using mustafaapi.Persistence.Repositories;
+using mustafaapi.Persistence.UnitOfWorks;
 
 namespace mustafaapi.Persistence
 {
@@ -18,6 +20,8 @@ namespace mustafaapi.Persistence
             services.AddScoped(typeof(IReadRepository<>), typeof(ReadRepository<>));
 
             services.AddScoped(typeof(IWriteRepository<>), typeof(WriteRepository<>));
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
         }
     }
 }

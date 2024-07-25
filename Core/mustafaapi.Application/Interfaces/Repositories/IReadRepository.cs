@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore.Query;
+using mustafaapi.application.Interfaces.UnitOfWorks;
 
 namespace mustafaapi.application.Interfaces.Repositories
 {

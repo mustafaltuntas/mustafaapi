@@ -5,7 +5,6 @@ using mustafaapi.Domain.Common;
 
 namespace mustafaapi.Persistence.Repositories
 {
-
 	public class WriteRepository<T> : IWriteRepository<T> where T : class, IEntityBase ,new()
 	{
         private readonly DbContext dbContext;
@@ -41,7 +40,6 @@ namespace mustafaapi.Persistence.Repositories
         {
             await Task.Run(() => Table.Remove(entity));
         }
-
     }
 }
 

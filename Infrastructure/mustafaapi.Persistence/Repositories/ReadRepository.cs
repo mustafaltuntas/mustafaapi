@@ -29,8 +29,7 @@ namespace mustafaapi.Persistence.Repositories
 
             return await queryable.ToListAsync();
         }
-
-
+       
 
         public async Task<int> CountAsync(Expression<Func<T, bool>>? predicate = null)
         {
@@ -40,17 +39,11 @@ namespace mustafaapi.Persistence.Repositories
             return await Table.Where(predicate).CountAsync();
         }
 
-
-
-
         public IQueryable<T> Find(Expression<Func<T, bool>> predicate, bool enableTracking = false)
         {
             if (!enableTracking) Table.AsNoTracking();
             return Table.Where(predicate);
         }
-
-
-
 
         public async Task<IList<T>> GetAllByPagingAsync(Expression<Func<T, bool>>? predicate = null, Func<IIncludableQueryable<T, object>>? include = null, Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null, bool enableTracking = false, int currentPage = 1, int pageSize = 3)
         {
@@ -66,7 +59,7 @@ namespace mustafaapi.Persistence.Repositories
 
 
 
-        public as Task<T> GetAsync(Expression<Func<T, bool>>? predicate, Func<IIncludableQueryable<T, object>>? include = null, bool enableTracking = false)
+        public async Task<T> GetAsync(Expression<Func<T, bool>>? predicate, Func<IIncludableQueryable<T, object>>? include = null, bool enableTracking = false)
         {
             IQueryable<T> queryable = Table;
             if (!enableTracking) queryable = queryable.AsNoTracking();
@@ -76,7 +69,7 @@ namespace mustafaapi.Persistence.Repositories
 
         }
 
-        Task<IList<T>> IReadRepository<T>.GetAsync(Expression<Func<T, bool>>? predicate, Func<IIncludableQueryable<T, object>>? include, bool enableTracking)
+        private Task<IList<T>> IReadRepository<T> GetAsync(Expression<Func<T, bool>>? predicate, Func<IIncludableQueryable<T, object>>? include, bool enableTracking)
         {
             throw new NotImplementedException();
         }
