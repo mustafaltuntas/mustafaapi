@@ -2,7 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using mustafaapi.application.Interfaces.Repositories;
 using mustafaapi.Persistence.Context;
+using mustafaapi.Persistence.Repositories;
 
 namespace mustafaapi.Persistence
 {
@@ -12,6 +14,10 @@ namespace mustafaapi.Persistence
         {
             services.AddDbContext<AppDbContext>(opt =>
                 opt.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddScoped(typeof(IReadRepository<>), typeof(ReadRepository<>));
+
+            services.AddScoped(typeof(IWriteRepository<>), typeof(WriteRepository<>));
         }
     }
 }

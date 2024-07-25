@@ -1,11 +1,18 @@
 ﻿using System;
+using mustafaapi.Domain.Common;
 namespace mustafaapi.application.Interfaces.Repositories
 {
-	public class IWriteRepository
+	public interface IWriteRepository<T> where T :  class, IEntityBase, new()
 	{
-		public IWriteRepository()
-		{
-		}
-	}
+		Task<int> AddAsync(T entity);
+
+		Task<IList<int>> AddRangeAsync(IList<T> entities);
+
+		Task<T> UpdateAsync(T entity);
+
+		Task HardDeleteAsync(T entity);
+
+        Task SoftDeleteAsync(T entity);
+    }
 }
 
